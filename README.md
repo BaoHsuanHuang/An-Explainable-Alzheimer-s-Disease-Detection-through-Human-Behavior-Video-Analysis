@@ -44,3 +44,6 @@ The findings indicate that individuals with AD tend to exhibit head movement dur
 <img src="src/5_Results_head_movement.png" alt="5_Results_head_movement" style="width:90%;"/>
 
 #### Turuning Period Importance
+In the Turning Subtask, we apply SHAP on the test data for each fold to understand how the model behaves on the data separately in a five-fold crossvalidation. 
+We can figure out that the range of the SHAP value of feature "period 1' along the x-axis is larger than that of the feature 'period 2', which means that feature 'period 1' is more important for the final predictions of the model. Therefore, we can conclude that the longer it takes a subject to perform the first turning action, the more likely that subject is to exhibit signs of AD.
+<img src="src/5_Results_turning_SHAP.png" alt="5_Results_turning_SHAP" style="width:80%;"/>
