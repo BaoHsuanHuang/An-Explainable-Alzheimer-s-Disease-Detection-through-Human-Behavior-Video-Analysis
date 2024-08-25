@@ -19,7 +19,7 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disease characterize
 <img src="src/4_Method_body_landmarks.jpg" alt="4_Method_body_landmarks" style="width:40%;"/>
 
 2. Facial Landmarks Detection: MediaPipe Face Mesh Detection
-<img src="src/4_Method_facial_landmarks.jpg" alt="4_Method_facial_landmarks" style="width:40%;"/>
+<img src="src/4_Method_facial_landmarks.jpg" alt="4_Method_facial_landmarks" style="width:35%;"/>
 
 ### Modeling Overview
 <img src="src/4_Method_model_overview.png" alt="4_Method_model_overview" style="width:90%;"/>
@@ -29,16 +29,18 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disease characterize
 ### Performance Evaluation
 Evaluation results of ACC (Accuracy), SEN (Sensitivity), SPE (Specificity), PRE (Precision), and F1-score. The values in bold represent the best performance for each evaluation metric, while the underlined values indicate the second-best performance.
 
-<img src="src/5_Results_table_complete.png" alt="5_Results_table_complete" style="width:70%;"/>
+<img src="src/5_Results_table_complete.png" alt="5_Results_table_complete" style="width:80%;"/>
 
 ### Model Interpretation and Visualization
 
 #### Walking Posture and Track
 Model interpretation results on a figure of distance changes in the x-direction between the left and right ankles during walking with Gradient-weighted Class Activation Mapping (Grad-CAM) method. Non-AD subjects walk faster and have longer stride lengths, while AD patients have slower walking paces and shorter stride lengths. In addition, the
 distance difference of each step taken by AD patients is relatively unstable and marked with darker red dots, thus showing the abnormal characteristics of AD patients’ gait.
-<img src="src/5_Results_walking_tracks.png" alt="5_Results_walking_tracks" style="width:80%;"/>
+<img src="src/5_Results_walking_tracks.png" alt="5_Results_walking_tracks" style="width:90%;"/>
 
 #### Head Movement
+We visualized the model interpretation results in the subjects' head movement trajectories while performing the picture description task.
+The findings indicate that individuals with AD tend to exhibit head movement during the experiment, and the model interpretation results also consider the trajectory of significant head movements as an important feature of the model decision-making process (marked by dark red lines). The movement of the head also includes the action that subjects turn their head to seek help or recognition from medical staff.
 <img src="src/5_Results_head_movement.png" alt="5_Results_head_movement" style="width:90%;"/>
 
 #### Turuning Period Importance
