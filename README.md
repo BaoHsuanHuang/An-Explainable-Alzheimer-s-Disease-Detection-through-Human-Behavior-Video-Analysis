@@ -5,7 +5,7 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disease characterize
 
 ## Dataset
 ### Subjects
-![3_Dataset_subjects](src/3_Dataset_subjects.png =90%x)
+![image](src/3_Dataset_subjects.png =90%x)
 
 ### Experimental Setup
 1. Timed Up and Go (TUG) trial.
