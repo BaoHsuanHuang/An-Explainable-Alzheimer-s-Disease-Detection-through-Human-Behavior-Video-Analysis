@@ -9,27 +9,26 @@ Alzheimer's disease (AD) is a progressive neurodegenerative disease characterize
 
 ### Experimental Setup
 1. Timed Up and Go (TUG) trial.
-<img src="src/3_Dataset_setting1.png" alt="3_Dataset_setting1" style="width:40%;"/>
+<img src="src/3_Dataset_setting1.png" alt="3_Dataset_setting1" style="width:30%;"/>
 2. Cookie Theft picture description trial.
-<img src="src/3_Dataset_setting2.png" alt="3_Dataset_setting2" style="width:40%;"/>
+<img src="src/3_Dataset_setting2.png" alt="3_Dataset_setting2" style="width:30%;"/>
 
 ## Methodology
 ### Data Pre-processing
 1. Body Landmarks Detection: YOLOv7 Pose Estimation
-<img src="src/4_Method_body_landmarks.png" alt="4_Method_body_landmarks" style="width:80%;"/>
+<img src="src/4_Method_body_landmarks.jpg" alt="4_Method_body_landmarks" style="width:50%;"/>
 
 2. Facial Landmarks Detection: MediaPipe Face Mesh Detection
-<img src="src/4_Method_facial_landmarks.jpg" alt="4_Method_facial_landmarks" style="width:80%;"/>
+<img src="src/4_Method_facial_landmarks.jpg" alt="4_Method_facial_landmarks" style="width:50%;"/>
 
 ### Modeling Overview
-<img src="src/4_Method_model_overview.png" alt="4_Method_model_overview" style="width:80%;"/>
+<img src="src/4_Method_model_overview.png" alt="4_Method_model_overview" style="width:90%;"/>
 
 
 ## Results
 ### Performance Evaluation
-Evaluation results of ACC (Accuracy), SEN (Sensitivity), SPE (Specificity), PRE (Precision), and F1-score. 
-The values in bold represent the best performance for each evaluation metric, while the underlined values indicate the second-best performance.
-<img src="src/5_Results_table_complete.png" alt="5_Results_table_complete" style="width:80%;"/>
+Evaluation results of ACC (Accuracy), SEN (Sensitivity), SPE (Specificity), PRE (Precision), and F1-score. The values in bold represent the best performance for each evaluation metric, while the underlined values indicate the second-best performance.
+<img src="src/5_Results_table_complete.png" alt="5_Results_table_complete" style="width:70%;"/>
 
 ### Model Interpretation and Visualization
 
